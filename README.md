@@ -83,10 +83,10 @@ You need to perform the following tasks to complete the assignment:
 4) F1 Score of the Logistic Regression Model is : **89.96%**
 
 #### Decision Tree Classifier
-1) Accuracy of the Decision Tree Model is : **82.64%**
-2) Precision of the Decision Tree Model Model is : **83.04%**
-3) Recall of the Decision Tree Model Model is : **79.92%**
-4) F1 Score of the Decision Tree Model Model is : **81.45%**
+1) Accuracy of the Decision Tree Model is : **82.44%**
+2) Precision of the Decision Tree Model Model is : **82.83%**
+3) Recall of the Decision Tree Model Model is : **79.67%**
+4) F1 Score of the Decision Tree Model Model is : **81.22%**
 
 #### Random Forest Model
 1) Accuracy of the Random Forest Model is : **90.9%**
@@ -95,3 +95,10 @@ You need to perform the following tasks to complete the assignment:
 4) F1 Score of the Random Forest Model Model is : **90.39%**
 
 **Random Forest Model** given highest accuracy **90.9%** compared to other models
+
+### **Best Model Chosen: Random Forest**
+
+- **Evaluation Metric Prioritised**: The **F1-score** was chosen as the primary evaluation metric to maintain a balance between **precision and recall**. This ensured that both false positives and false negatives were minimized, which is crucial in the context of fake news detection where both types of errors can have significant consequences.
+
+- **Impact Assessment**:
+The Random Forest model, integrated with Word2Vec embeddings, demonstrated strong performance and generalizability. Its ensemble architecture enabled it to explore diverse decision boundaries, effectively capturing subtle semantic nuances in textual data. This combination not only improved classification accuracy but also facilitated the extraction of meaningful linguistic patterns, making it a practical and scalable solution for real-world fake news detection systems.
